@@ -51,7 +51,7 @@ def download_links(links: list, folder_name: str):
 
 def verify_image(image_path:str) -> bool:
     try:
-
+        # TODO: write something here
         return True
     except:
         return False
